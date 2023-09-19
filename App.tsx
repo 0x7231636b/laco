@@ -1,11 +1,10 @@
-import { StatusBar } from "expo-status-bar";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Dice from "./components/dice";
 
 const App: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Dice callback={() => {}} />
+      <Dice />
     </View>
   );
 };
