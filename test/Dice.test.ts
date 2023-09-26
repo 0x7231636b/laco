@@ -1,4 +1,4 @@
-import { newNumber } from "../components/dice";
+import { newNumber } from "../components/Dice";
 
 const LIMIT = 1000000;
 const DELTA = 2000;
